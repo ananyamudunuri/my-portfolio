@@ -1,0 +1,76 @@
+[
+    {
+      "title": "ExamEngine – FastAPI Exam Platform",
+      "summary": "FastAPI exam system for single/multiple-answer tests with clean REST APIs, minimal HTML UI, scoring breakdowns, and OpenAPI docs. Prod on Cloud Run behind HTTPS LB with Cloud SQL (Postgres).",
+      "tags": ["FastAPI", "SQLAlchemy", "Pydantic", "PostgreSQL", "SQLite", "Docker", "Cloud Run", "GCP"],
+      "links": [
+        { "href": "https://github.com/ananyamudunuri/Exam-engine", "label": "GitHub" }
+      ]
+    },
+    {
+      "title": "Analysis on Climate Change and Impact of Greenhouse Gas Emission",
+      "summary": "Predictive modeling and analysis of climate change patterns driven by greenhouse gas emissions. Built ETL pipelines using GCP services (BigQuery, DataStream, Cloud Composer) and visualized insights with Tableau. Includes real-time + archived data pipelines and ML models (ARIMA, regression) for forecasting.",
+      "tags": ["GCP", "BigQuery", "Cloud Composer", "Airflow", "ETL", "Climate Analysis", "ML", "Tableau"],
+      "links": [
+        { "href": "https://github.com/ananyamudunuri/Analysis-On-Climate-Change-And-Impact-Of-Greenhouse-Gas-Emission-/blob/main/Group2.pdf", "label": "Report" }
+      ]
+    },
+    {
+      "title": "ComicGen – AI Comic Strip Generator",
+      "summary": "Multimodal AI-powered tool for generating comic strips using GPT-4, LoRA, BERT, and Stable Diffusion. Improved quality consistency by ~30% and automated creative workflows.",
+      "tags": ["Python", "PyTorch", "Stable Diffusion", "LoRA", "BERT", "RAG", "Generative AI"],
+      "links": [
+        { "href": "https://github.com/ananyamudunuri", "label": "Repos" }
+      ]
+    },
+    {
+      "title": "Rain-drops Simulation",
+      "summary": "Python game built with Pygame + Pymunk: catch raindrops with realistic gravity/bounce, rain-sound background, slider to adjust rain speed, splash effects, and interactive controls.",
+      "tags": ["Python", "Pygame", "Pymunk", "Game Dev"],
+      "links": [
+        { "href": "https://github.com/ananyamudunuri/Rain-drops", "label": "GitHub" }
+      ]
+    },
+    {
+      "title": "Commercial Building Energy Optimization – A Machine Learning Approach",
+      "summary": "Predict HVAC load from 300+ sensors over 3 years to cut energy waste; time-series feature engineering and ML models to improve forecast reliability and operational efficiency.",
+      "tags": ["Python", "Time Series", "sklearn", "Energy", "GCP"],
+      "links": [
+        { "href": "https://github.com/ananyamudunuri/Commercial-building-Energy-Optimization-A-Machine-Learning-Approach--", "label": "GitHub" }
+      ]
+    },
+    {
+      "title": "Music Recommendation System",
+      "summary": "Content-based recommendations using genre/year/beat features with KNN, Decision Tree, Random Forest, Logistic Regression, and TF-IDF; focuses on accuracy, diversity, and user input.",
+      "tags": ["Python", "Pandas", "scikit-learn", "TF-IDF", "Recommenders"],
+      "links": [
+        { "href": "https://github.com/ananyamudunuri/Music-Recommendation", "label": "GitHub" }
+      ]
+    },
+    {
+      "title": "LinkedIn Job Post Analysis",
+      "summary": "Analyzed LinkedIn job postings using two approaches: (1) MongoDB pipeline for data ingestion & query, and (2) Relational Database schema with SQL-based design, queries, and MySQL integration. Explored trends in companies, skills, and job requirements.",
+      "tags": ["MongoDB", "SQL", "Relational DB", "MySQL", "Data Pipeline", "EDA"],
+      "links": [
+        { "href": "https://github.com/ananyamudunuri/The-LinkedIn-Job-Postings-using-MongoDB", "label": "MongoDB Repo" },
+        { "href": "https://github.com/aryama-ray/LinkedIn-Job-Post-Analysis-using-Relational-database", "label": "Relational DB Repo" }
+      ]
+    },
+    {
+      "title": "Deep Learning Projects Collection",
+      "summary": "A collection of deep learning notebooks covering PyTorch, TensorFlow, CNNs, GANs, LSTMs, Transformers, LangChain, StyleGAN, RAGs, Toxic Comment Classification, and more.",
+      "tags": ["PyTorch", "TensorFlow", "CNN", "GAN", "LSTM", "Transformer", "LangChain", "StyleGAN", "NLP"],
+      "links": [
+        { "href": "https://github.com/ananyamudunuri/My-Deep-learning-projects", "label": "GitHub" }
+      ]
+    },
+    {
+      "title": "SF Fire Alarm Analysis",
+      "summary": "Predicted and analyzed fire incidents in San Francisco using 678K+ records from the Fire Department. Feature engineering, predictive modeling, and data-driven insights to improve resource allocation and public safety.",
+      "tags": ["Python", "Data Analysis", "Predictive Modeling", "Public Safety", "EDA"],
+      "links": [
+        { "href": "https://github.com/ananyamudunuri/SF-Fire-Alarm-Analysis/blob/main/Team%2011_Technical_Rreport.pdf", "label": "Report" }
+      ]
+    }
+  ]
+  

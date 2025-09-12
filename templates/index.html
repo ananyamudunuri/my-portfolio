@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero gradient-card hue-2 hero-split">
+  <div class="hero-left">
+    <p class="hello">Hello, I'm</p>
+    <h1 class="hero-name">Ananya Varma<br> Mudunuri</h1>
+    <p class="hero-sub">
+      I’m a Data Engineer who’s passionate about
+      <span id="type-rotator" class="rotator"></span>
+      <span class="cursor">|</span>
+    </p>
+
+    <div class="cta-row">
+      <a class="btn" href="/projects">See Projects</a>
+      <a class="btn ghost" href="/contact">Request my Resume</a>
+    </div>
+
+    <div class="socials">
+      <a href="https://github.com/ananyamudunuri" target="_blank" rel="noreferrer" class="pill hue-1">GitHub</a>
+      <a href="https://www.linkedin.com/in/ananyamudunuri/" target="_blank" rel="noreferrer" class="pill hue-3">LinkedIn</a>
+      <a href="mailto:mananyavarma@gmail.com" class="pill hue-5">Email</a>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <img src="/static/me.jpg" alt="Ananya Varma Mudunuri" class="hero-photo" />
+  </div>
+</section>
+
+
+<!-- Experience without bulletpoints -->
+<section class="prose" style="margin-top:22px">
+  <h1 class="page-title">Experience</h1>
+  <div class="cards">
+    <article class="card hue-4">
+      <h3>Sr. Data Engineer — Megnity Technologies</h3>
+      <p class="muted">May 2021 – Jul 2023</p>
+    </article>
+    <article class="card hue-6">
+      <h3>Data Engineer — Arka F&amp;B Pvt Ltd</h3>
+      <p class="muted">May 2019 – Apr 2021</p>
+    </article>
+  </div>
+</section>
+
+<!-- Education -->
+<section class="prose" style="margin-top:10px">
+  <h1 class="page-title">Education</h1>
+  <div class="cards three">
+    <article class="card hue-2">
+      <h3>San Jose State University</h3>
+      <p class="muted">M.S., Applied Data Science — Aug 2023 – May 2025</p>
+    </article>
+    <article class="card hue-6">
+      <h3>Gokaraju Rangaraju Institute of Engineering &amp; Technology</h3>
+      <p class="muted">B.Tech., Computer Science — Aug 2018 – Sep 2022</p>
+    </article>
+  </div>
+</section>
+
+<!-- Certifications with links -->
+<section class="prose" style="margin-top:10px">
+  <h1 class="page-title">Certifications</h1>
+  <div class="cards three">
+    <article class="card hue-1">
+      <p><strong>AWS Certified Data Engineer – Associate</strong></p>
+      <a href="https://www.credly.com/badges/354c23e5-1418-4694-9ab3-f23cfa6196e6/email" target="_blank" rel="noreferrer">Verify</a>
+    </article>
+    <article class="card hue-4">
+      <p><strong>Google Cloud Professional Data Engineer</strong></p>
+      <a href="https://www.credly.com/badges/de8971d4-cb7a-405d-b31c-61043da61559/public_url" target="_blank" rel="noreferrer">Verify</a>
+    </article>
+    <article class="card hue-3">
+      <p><strong>AWS Academy Graduate – Cloud Foundations</strong></p>
+      <a href="https://www.credly.com/badges/8bae208b-de6f-49af-9eaf-d277e3c07470/public_url" target="_blank" rel="noreferrer">Verify</a>
+    </article>
+    <article class="card hue-5">
+      <p><strong>Salesforce Certified Platform Administrator</strong></p>
+      <a href="https://www.salesforce.com/trailblazer/ananyamudunuri" target="_blank" rel="noreferrer">Show credential</a>
+    </article>
+    <article class="card hue-6">
+      <p><strong>Salesforce Certified Agentforce Specialist</strong></p>
+      <a href="https://www.salesforce.com/trailblazer/ananyamudunuri" target="_blank" rel="noreferrer">Show credential</a>
+    </article>
+  </div>
+</section>
+
+<!-- Informal / Interests -->
+<section class="prose" style="margin-top:10px">
+  <h1 class="page-title">Beyond Work</h1>
+  <article class="card hue-3">
+    <p>When I’m not coding pipelines or training models, I’m probably:</p>
+    <ul class="tight">
+      <li>✨ Sketching, painting, or playing with AI</li>
+      <li>🍜 Hunting for ramen spots & trying new cuisines</li>
+      <li>📚 Exploring books, shows, and creative storytelling</li>
+      <li>🎶 Chilling with music & playlists that keep me inspired</li>
+      <li>🛠️ Debugging everything from SQL joins to Wi-Fi issues for friends</li>
+    </ul>
+    <p>Work is what I do, but curiosity and creativity are what keep me moving 💡</p>
+  </article>
+</section>
+{% endblock %}

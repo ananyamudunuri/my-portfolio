@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="prose">
+  <h1 class="page-title">Contact / Request Resume</h1>
+
+  <div class="gradient-card hue-6">
+    <p>Prefer to share my resume on request. Leave your details and I’ll send it over.</p>
+
+    <form class="form" action="/request-resume" method="post">
+      <label>
+        <span>Name</span>
+        <input name="name" type="text" required />
+      </label>
+      <label>
+        <span>Email</span>
+        <input name="email" type="email" required />
+      </label>
+      <label>
+        <span>Note (optional)</span>
+        <textarea name="note" rows="4" placeholder="Tell me what you’re hiring for…"></textarea>
+      </label>
+      <button class="btn" type="submit">Request Resume</button>
+    </form>
+
+    <h2>Elsewhere</h2>
+    <ul class="links">
+      <li><a href="mailto:mananyavarma@gmail.com">mananyavarma@gmail.com</a></li>
+      <li><a href="https://github.com/ananyamudunuri" target="_blank" rel="noreferrer">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/ananyamudunuri/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+    </ul>
+  </div>
+</section>
+{% endblock %}
